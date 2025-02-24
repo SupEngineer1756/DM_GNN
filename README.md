@@ -15,6 +15,9 @@ DM-GNN is a deep learning framework designed to enhance **cancer survival analys
 - Employs **graph neural networks (GNNs)** to process WSIs as **graphs**.
 - Leverages **affinity-guided attention recalibration (AARM)** to improve prediction stability.
 
+## Dataset
+The WSI dataset used in the paper are sourced from the TCGA, which can be downloaded from the gdc portal https://portal.gdc.cancer.gov, the slide images are ".svs" files.
+
 ## Key Features
 - **Dual-stream network**: 
   - **Feature Updating Branch (FUB)**: Models morphological similarity.
